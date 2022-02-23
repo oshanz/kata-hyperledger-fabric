@@ -25,3 +25,4 @@ podman pull docker.io/hyperledger/fabric-orderer:2.4
 podman tag hyperledger/fabric-orderer:2.4 hyperledger/fabric-orderer:latest
 
 
+CONTAINER_CLI=podman ./network.sh up
